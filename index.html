@@ -14,10 +14,97 @@
             <h1 style="text-align: center;">Temperature Converter by Bety Robiyah</h1>
         </header>
         
-        <section class="section-introduction">
-            <p style="padding: 16px; background: aliceblue;border-radius: 4px;">Masukkan suhu derajat Celcius (&deg;C), lalu klik tombol Konversi untuk mendapatkan hasil konversi dalam bentuk Fahrenheit (&deg;F).</p>
+    
+        <section style="padding: 16px; background: aliceblue;border-radius: 4px;" class="main-section">
+            <!-- section-introduction -->
+            <section>
+                <p>Masukkan suhu derajat Celcius (&deg;C), lalu klik tombol Convert untuk mendapatkan hasil konversi dalam bentuk Fahrenheit (&deg;F).</p>
+            </section>
+    
+            <section class="section-celcius">
+                <header>
+                    <h3 style="padding-top: 10px;">Celcius (&deg;C): </h3>
+                </header>
+    
+                <article>
+                    <textarea rows="1" style="resize: none;
+                    border: 2px solid skyblue;
+                    border-radius: 4px;
+                    font-size: 10px;"></textarea>
+
+                    <div>
+                        <button id="button-convert" style="background-color: lightskyblue;
+                        color: black;
+                        border: none;
+                        font-size: 16px;
+                        padding: 5px;
+                        border-radius: 4px;
+                        font-family: monospace;">Convert</button>
+                        <button id="button-reset" style="background-color: lightskyblue;
+                        color: black;
+                        border: none;
+                        font-size: 16px;
+                        padding: 5px;
+                        border-radius: 4px;
+                        font-family: monospace;">Reset</button>
+                        <button id="button-reverse" style="background-color: lightskyblue;
+                        color: black;
+                        border: none;
+                        font-size: 16px;
+                        padding: 5px;
+                        border-radius: 4px;
+                        font-family: monospace;">Reverse</button>
+                    </div>
+                </article>
+
+            </section>
+            <section class="section-fahrenheit">
+                <header>
+                    <h3 style="padding-top: 10px;">Fahrenheit (&deg;F): </h3>
+                </header>
+        
+                <article>
+                    <textarea rows="1" style="resize: none;
+                    border: 2px solid skyblue;
+                    border-radius: 4px;
+                    font-size: 10px;"></textarea>
+                </article>
+            </section>
+
+            <section class="section-result">
+                <header>
+                    <h3 style="padding-top: 10px;">Cara Kalkulasi:</h3>
+                </header>
+        
+                <article>
+                    <textarea rows="1" style="resize: none;
+                    border: 2px solid skyblue;
+                    border-radius: 4px;
+                    font-size: 10px;"></textarea>
+                </article>
+            </section>
+
+            <section class="section-explanation">
+                <header>
+                    <h5>Fahrenheit ke Celcius</h5>
+                    <h3>Cara Konversi dari Celcius (&deg;C) ke Fahrenheit (&deg;F)</h3>
+                </header>
+                <hr>
+                <article>
+                    <h1>Suhu S dalam Fahrenheit (&deg;F) sama dengan suhu S dalam serajat Celcius (&deg;C) kali 9/5 tambah 32</h1>
+                    <h1>S<sub>(&deg;F)</sub> = (S<sub>(&deg;C)</sub>× 9/5) + 32</h1>
+                    <h1>atau</h1>
+                    <h1>S<sub>(&deg;F)</sub> = (S<sub>(&deg;C)</sub>× 1.8) + 32</h1>
+                </article>
+        
+            </section>
+
+            
         </section>
+
     </main>
 </body>
+
+
 
 </html>

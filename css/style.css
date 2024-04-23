@@ -11,8 +11,63 @@ main {
     text-align: center;
 }
 
-.section-introduction{
+.main-section {
     padding: 16px;
     background: aliceblue;
     border-radius: 4px;
+}
+
+.main-celcius {
+    padding-top: 10px;
+}
+
+textarea {
+    width: 75%;
+    height: 35%
+    resize: none;
+    border: 2px; solidcolor; blue; 
+    border-radius: 4px;
+    font-size: 10px;
+}
+
+.main-fahrenheit {
+    padding-top: 10px;
+}
+
+.main-result {
+    padding-top: 10px;
+}
+
+.main-explanation {
+    padding-top: 10px;
+}
+
+#button-convert {
+    background-color: lightskyblue;
+    color: black;
+    border: none;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 4px;
+    font-family: monospace;
+}
+
+#button-reset {
+    background-color: lightskyblue;
+    color: black;
+    border: none;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 4px;
+    font-family: monospace;
+}
+
+#button-result {
+    background-color: lightskyblue;
+    color: black;
+    border: none;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 4px;
+    font-family: monospace;
 }

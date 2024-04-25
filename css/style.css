@@ -17,57 +17,77 @@ main {
     border-radius: 4px;
 }
 
-.main-celcius {
+.section-celcius {
     padding-top: 10px;
+}
+
+.section-fahrenheit {
+    padding-top: 5px;
+}
+
+.section-result {
+    padding-top: 5px;
+}
+
+.section-explanation {
+    padding-top: 5px;
 }
 
 textarea {
-    width: 75%;
-    height: 35%
-    resize: none;
-    border: 2px; solidcolor; blue; 
+    border: 2px solid skyblue;
     border-radius: 4px;
-    font-size: 10px;
+    color: darkblue;
+    font-size: 20px;
+    font-style: normal;
+    height: 50%;
+    width: 100%;
+    resize: none;
 }
 
-.main-fahrenheit {
-    padding-top: 10px;
+.formula-s {
+    font-size: 25px;
+    font-style: italic;
 }
 
-.main-result {
-    padding-top: 10px;
+.formula-s>sub {
+font-style: normal;
 }
 
-.main-explanation {
-    padding-top: 10px;
+.container-button{
+    padding-top: 8px;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #button-convert {
     background-color: lightskyblue;
     color: black;
-    border: none;
-    font-size: 16px;
-    padding: 5px;
-    border-radius: 4px;
-    font-family: monospace;
+    margin-right: 8px;
 }
 
 #button-reset {
-    background-color: lightskyblue;
+    background-color: lightblue;
     color: black;
-    border: none;
-    font-size: 16px;
-    padding: 5px;
-    border-radius: 4px;
-    font-family: monospace;
+    margin-right: 8px;
 }
 
-#button-result {
-    background-color: lightskyblue;
+#button-reverse {
+    background-color: lightsteelblue;
     color: black;
-    border: none;
-    font-size: 16px;
-    padding: 5px;
-    border-radius: 4px;
-    font-family: monospace;
+}
+
+#f-to-c {
+    display: none;
+}
+
+@media screen and (max-width; 480px) {
+    .container-button {
+        display: none;
+    }
 }
